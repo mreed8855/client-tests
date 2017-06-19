@@ -1,0 +1,11 @@
+AUTHOR = "Michael Reed"
+NAME = "Phase One"
+TIME = "SHORT"
+TEST_CATEGORY = "Functional"
+TEST_CLASS = "General"
+TEST_TYPE = "client"
+
+DOC = """
+This test runs simple command line tests
+"""
+job.run_test('phase_one', testcase='all')
